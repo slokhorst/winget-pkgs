@@ -1,0 +1,14 @@
+# Automatically updated by the winget bot at 2022/Apr/04
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+PackageIdentifier: gopass.gopass
+PackageVersion: 1.14.3
+MinimumOSVersion: 7.0.0.0
+InstallerType: wix
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/gopasspw/gopass/releases/download/v1.14.3/gopass-x64-windows-1.14.3.msi
+  InstallerSha256: 464916d1646059d0e887818dedb9af84f14856a78d216f86faf6c13e097e37d6
+  ProductCode: '{6C1BD458-7D1B-4311-848D-D0FE1A65AF66}'
+ManifestType: installer
+ManifestVersion: 1.1.0
